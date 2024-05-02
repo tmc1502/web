@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>APP IOT</title>
+	<title>SMART PARKING SYSTEM</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
@@ -13,57 +13,49 @@
 </head>
 
 <body>
+
 	<div class="header">
-		<h1>PARKING SYSTEM</h1>
+		<h1>SMART PARKING SYSTEM</h1>
 	</div>
+
 	<div class="wrapper">
-		<div class="progress">
-			<a class="Row">
-				A
-			</a>
-			<div class="toggle-btn" id="unact">
-				<div class="inner-circle"></div>
-			</div>
-
-			<div class="toggle-btn active" id="act">
-				<div class="inner-circle"></div>
-			</div>
+		<div class="logo">
+			<img src="./img/oto.png" alt="Logo">
 		</div>
-
-		<div class="progress">
-			<a class="Row">
-				B
-			</a>
-			<div class="toggle-btn1" id="unact1">
-				<div class="inner-circle"></div>
-			</div>
-			<div class="toggle-btn1 active" id="act1">
-				<div class="inner-circle"></div>
-			</div>
+		<div class="background"></div>
+		<div class="row">
+			<div class="parking-space-header large-text">1 &nbsp&nbsp</div>
+			<div class="parking-space-header large-text">2 &nbsp&nbsp</div>
+			<div class="parking-space-header large-text">3 &nbsp&nbsp</div>
+			<div class="parking-space-header large-text">4</div>
 		</div>
-
-		<div class="progress">
-			<a class="Row">
-				C
-			</a>
-			<div class="toggle-btn2" id="unact2">
-				<div class="inner-circle"></div>
-			</div>
-			<div class="toggle-btn2 active" id="act2">
-				<div class="inner-circle"></div>
-			</div>
+		<div class="row">
+			<div class="parking-space-header large-text">A</div>
+			<div class="parking-space" id="A1"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="A2"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="A3"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="A4"><img src="./img/car.png" alt="Image"></div>
 		</div>
-
-		<div class="progress">
-			<a class="Row">
-				D
-			</a>
-			<div class="toggle-btn3" id="unact3">
-				<div class="inner-circle"></div>
-			</div>
-			<div class="toggle-btn3 active" id="act3">
-				<div class="inner-circle"></div>
-			</div>
+		<div class="row">
+			<div class="parking-space-header large-text">B</div>
+			<div class="parking-space" id="B1"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="B2"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="B3"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="B4"><img src="./img/car.png" alt="Image"></div>
+		</div>
+		<div class="row">
+			<div class="parking-space-header large-text">C</div>
+			<div class="parking-space" id="C1"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="C2"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="C3"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="C4"><img src="./img/car.png" alt="Image"></div>
+		</div>
+		<div class="row">
+			<div class="parking-space-header large-text">D</div>
+			<div class="parking-space" id="D1"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="D2"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="D3"><img src="./img/car.png" alt="Image"></div>
+			<div class="parking-space" id="D4"><img src="./img/car.png" alt="Image"></div>
 		</div>
 	</div>
 </body>
